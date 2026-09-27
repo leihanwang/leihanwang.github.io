@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">LLM Optimization</title>
+  <desc id="desc">A stylized language model optimization diagram.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#3f1d5a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="28" fill="url(#bg)"/>
+  <g fill="#e2e8f0" opacity=".95">
+    <rect x="105" y="115" width="175" height="58" rx="14"/>
+    <rect x="105" y="205" width="240" height="58" rx="14"/>
+    <rect x="105" y="295" width="205" height="58" rx="14"/>
+  </g>
+  <g fill="#334155">
+    <rect x="128" y="135" width="110" height="18" rx="9"/>
+    <rect x="128" y="225" width="160" height="18" rx="9"/>
+    <rect x="128" y="315" width="135" height="18" rx="9"/>
+  </g>
+  <path d="M390 105 C505 105 585 165 585 245 C585 340 500 395 385 395" fill="none" stroke="url(#accent)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M525 340 L615 390 L605 290 Z" fill="#f59e0b"/>
+  <g fill="url(#accent)">
+    <circle cx="430" cy="150" r="24"/>
+    <circle cx="500" cy="215" r="24"/>
+    <circle cx="460" cy="300" r="24"/>
+  </g>
+  <g stroke="#fbcfe8" stroke-width="7" opacity=".9">
+    <line x1="430" y1="150" x2="500" y2="215"/>
+    <line x1="500" y1="215" x2="460" y2="300"/>
+  </g>
+</svg>
