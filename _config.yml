@@ -19,7 +19,7 @@ repository               : "leihanwang/leihanwang.github.io"
 
 # Site Author
 author:
-  avatar           : ""
+  avatar           : "leihan-wang-profile.jpg"
   name             : "Leihan Wang"
   pronouns         :
   bio              : "Student at University at Buffalo, SUNY"
@@ -30,7 +30,7 @@ author:
 
   academia         :
   arxiv            :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=WZ8MSLYAAAAJ&hl=en"
   inspire-hep      :
   impactstory      :
   orcid            :
