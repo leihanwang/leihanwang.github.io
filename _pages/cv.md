@@ -7,58 +7,47 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**University at Buffalo, SUNY**  
+B.S. in Computer Science
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Hohai University**  
+B.Eng. in Artificial Intelligence, 2024
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research Interests
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Large Language Models and LLM Systems
+- LLMs for Code Generation and Software Engineering
+- Efficient On-device / Mobile AI and NPU Systems
+- Federated Learning and Trustworthy AI
+- Computer Vision and Multimodal Systems
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Research Experience
+
+### University at Buffalo, SUNY — Research Assistant
+**2025–Present**
+
+- Researching LLM-driven program synthesis and test-driven code generation using Bayesian optimization.
+- Developing task-adaptive prompt and exemplar selection methods evaluated on HumanEval+.
+- Exploring efficient transfer of optimized prompt knowledge to unseen coding tasks using auxiliary LLMs.
+
+### Federated Learning Research
+**2024–Present**
+
+- Studying reliable federated learning under spatiotemporal, model, and label heterogeneity.
+- Research directions include FedSTAR and FedHAN, with emphasis on alignment, robustness, and global model stability.
+
+### Mobile AI Systems Research
+
+- Studying smartphone NPU architecture and efficient on-device AI inference.
+- Current directions include NPUGen, ShadowNPU, and low-level accelerator behavior on mobile AI hardware.
+
+## Technical Areas
+
+Python · C/C++ · PyTorch · Linux · Git/GitHub · Large Language Models · Bayesian Optimization · Federated Learning · Computer Vision
+
+## Contact
+
+Email: [leihanwa@buffalo.edu](mailto:leihanwa@buffalo.edu)  
+GitHub: [github.com/leihanwang](https://github.com/leihanwang)
