@@ -5,10 +5,57 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+<div class="research-grid">
+  <div class="research-card">
+    <img src="/images/research-federated.svg" alt="Federated Learning">
+    <div class="research-label">Federated Learning</div>
+  </div>
 
-<p>Selected research projects and ongoing work in large language models, AI systems, mobile/on-device AI, and federated learning.</p>
+  <div class="research-card">
+    <img src="/images/research-npu.svg" alt="NPU">
+    <div class="research-label">NPU</div>
+  </div>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+  <div class="research-card">
+    <img src="/images/research-llm.svg" alt="LLM Optimization">
+    <div class="research-label">LLM Optimization</div>
+  </div>
+</div>
+
+<style>
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 2rem;
+}
+
+.research-card {
+  text-align: center;
+}
+
+.research-card img {
+  width: 100%;
+  aspect-ratio: 8 / 5;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.research-card img:hover {
+  transform: translateY(-3px);
+}
+
+.research-label {
+  margin-top: 14px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
