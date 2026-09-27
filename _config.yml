@@ -3,35 +3,31 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Academic Portfolio"
+site_theme               : "default"
+title                    : "Leihan Wang"
 title_separator          : "-"
-name                     : &name ""
-description              : &description "Academic portfolio"
+name                     : &name "Leihan Wang"
+description              : &description "Leihan Wang's academic portfolio"
 url                      : "https://leihanwang.github.io"
 baseurl                  : ""
 repository               : "leihanwang/leihanwang.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : ""
+  avatar           : ""
+  name             : "Leihan Wang"
   pronouns         :
-  bio              : ""
-  location         : ""
-  employer         : ""
+  bio              : "Student at University at Buffalo, SUNY"
+  location         :
+  employer         : "University at Buffalo, SUNY"
   uri              :
-  email            :
+  email            : "leihanwa@buffalo.edu"
 
-  # Academic websites
   academia         :
   arxiv            :
   googlescholar    :
@@ -45,7 +41,6 @@ author:
   scopus           :
   zotero           :
 
-  # Repositories and software development
   bitbucket        :
   codepen          :
   dribbble         :
@@ -53,7 +48,6 @@ author:
   kaggle           :
   stackoverflow    :
 
-  # Social media
   artstation       :
   bluesky          :
   facebook         :
@@ -80,12 +74,11 @@ author:
   youtube          :
   zhihu            :
 
-# Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
