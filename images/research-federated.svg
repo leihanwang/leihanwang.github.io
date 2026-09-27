@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Federated Learning</title>
+  <desc id="desc">A central model connected to distributed devices.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="28" fill="url(#bg)"/>
+  <g stroke="#64748b" stroke-width="7" opacity=".8">
+    <line x1="400" y1="250" x2="180" y2="120"/>
+    <line x1="400" y1="250" x2="620" y2="120"/>
+    <line x1="400" y1="250" x2="150" y2="370"/>
+    <line x1="400" y1="250" x2="650" y2="370"/>
+    <line x1="400" y1="250" x2="400" y2="75"/>
+  </g>
+  <circle cx="400" cy="250" r="78" fill="url(#node)"/>
+  <g fill="#e2e8f0">
+    <rect x="140" y="80" width="80" height="80" rx="16"/>
+    <rect x="580" y="80" width="80" height="80" rx="16"/>
+    <rect x="110" y="330" width="80" height="80" rx="16"/>
+    <rect x="610" y="330" width="80" height="80" rx="16"/>
+    <rect x="360" y="35" width="80" height="80" rx="16"/>
+  </g>
+  <g fill="#0f172a" opacity=".9">
+    <circle cx="180" cy="120" r="16"/>
+    <circle cx="620" cy="120" r="16"/>
+    <circle cx="150" cy="370" r="16"/>
+    <circle cx="650" cy="370" r="16"/>
+    <circle cx="400" cy="75" r="16"/>
+  </g>
+  <path d="M375 218h50a18 18 0 0 1 18 18v28a18 18 0 0 1-18 18h-50a18 18 0 0 1-18-18v-28a18 18 0 0 1 18-18Z" fill="#0f172a"/>
+  <circle cx="385" cy="250" r="8" fill="#e2e8f0"/><circle cx="415" cy="250" r="8" fill="#e2e8f0"/>
+</svg>
