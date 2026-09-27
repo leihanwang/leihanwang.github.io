@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">NPU</title>
+  <desc id="desc">A stylized neural processing unit chip.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="28" fill="url(#bg)"/>
+  <g stroke="#94a3b8" stroke-width="8" stroke-linecap="round" opacity=".75">
+    <line x1="260" y1="125" x2="210" y2="125"/><line x1="260" y1="190" x2="210" y2="190"/><line x1="260" y1="255" x2="210" y2="255"/><line x1="260" y1="320" x2="210" y2="320"/><line x1="260" y1="385" x2="210" y2="385"/>
+    <line x1="540" y1="125" x2="590" y2="125"/><line x1="540" y1="190" x2="590" y2="190"/><line x1="540" y1="255" x2="590" y2="255"/><line x1="540" y1="320" x2="590" y2="320"/><line x1="540" y1="385" x2="590" y2="385"/>
+    <line x1="315" y1="80" x2="315" y2="35"/><line x1="370" y1="80" x2="370" y2="35"/><line x1="430" y1="80" x2="430" y2="35"/><line x1="485" y1="80" x2="485" y2="35"/>
+    <line x1="315" y1="420" x2="315" y2="465"/><line x1="370" y1="420" x2="370" y2="465"/><line x1="430" y1="420" x2="430" y2="465"/><line x1="485" y1="420" x2="485" y2="465"/>
+  </g>
+  <rect x="260" y="80" width="280" height="340" rx="36" fill="url(#chip)"/>
+  <rect x="305" y="125" width="190" height="250" rx="24" fill="#0f172a" opacity=".92"/>
+  <g fill="#c4b5fd">
+    <circle cx="350" cy="175" r="15"/><circle cx="450" cy="175" r="15"/><circle cx="400" cy="250" r="15"/><circle cx="350" cy="325" r="15"/><circle cx="450" cy="325" r="15"/>
+  </g>
+  <g stroke="#60a5fa" stroke-width="7">
+    <line x1="350" y1="175" x2="400" y2="250"/><line x1="450" y1="175" x2="400" y2="250"/><line x1="400" y1="250" x2="350" y2="325"/><line x1="400" y1="250" x2="450" y2="325"/>
+  </g>
+</svg>
