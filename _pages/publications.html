@@ -6,23 +6,9 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">Google Scholar</a>.</div>
+<p>You can also find my publications on <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>.</p>
 {% endif %}
 
-{% include base_path %}
+<p><a href="https://doi.org/10.1109/BigData66926.2025.11401644" target="_blank" rel="noopener"><strong>FedHAN: Robust Federated Learning Under Model Heterogeneity and Label Noise</strong></a></p>
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% endif %}
+<p><a href="https://doi.org/10.1007/978-3-032-21171-2_4" target="_blank" rel="noopener"><strong>FedSTAR: A Federated Learning Framework for Reliable Trajectory Prediction Under Spatiotemporal Heterogeneity</strong></a></p>
