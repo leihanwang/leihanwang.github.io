@@ -1,46 +1,14 @@
 ---
 permalink: /
-title: "Leihan Wang"
+title: "About Me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am **Leihan Wang**, a Computer Science student at **University at Buffalo, SUNY**. My research interests lie at the intersection of **AI systems and multimodal intelligence**, with a focus on **LLM optimization and alignment, world models, augmented reality, efficient on-device AI, and federated learning**.
+I am an undergraduate student in **Computer Science at the University at Buffalo (UB), SUNY**. My research interests lie broadly in **AI systems and multimodal intelligence**, with a particular focus on **LLM optimization and alignment, augmented reality, world models, efficient on-device AI, and federated learning**.
 
-My work spans efficient LLM inference on mobile hardware, multimodal and foundation-model alignment, audio-visual reasoning for AR systems, world-model-based intelligence, robust learning under heterogeneous settings, and LLM-driven program synthesis.
+My research explores how intelligent models can be made more efficient, adaptive, and reliable in real-world environments. I work on problems including **LLM-driven program synthesis and prompt optimization, multimodal and foundation-model alignment, audio-visual reasoning for AR systems, world-model-based intelligence, and efficient LLM inference on mobile NPUs**. I am also interested in robust learning under heterogeneous and decentralized settings, including federated learning across diverse data and model distributions.
 
-## Research Interests
-
-- LLM Optimization, Alignment, and AI Systems
-- Multimodal Foundation Models and Representation Alignment
-- Augmented Reality, Audio-Visual Intelligence, and World Models
-- Efficient On-device AI and Mobile NPU Systems
-- Federated Learning and Robust / Trustworthy Learning
-
-## Selected Research
-
-### BODE-GEN: Bayesian Optimization for LLM Code Generation
-I work on improving LLM-driven program synthesis through Bayesian optimization. Recent work explores learning a compact prompt-and-exemplar memory from a subset of HumanEval+ tasks and using an auxiliary LLM to select task-specific demonstrations for unseen coding problems.
-
-### Mobile AI Systems and NPU Inference
-I am studying mobile AI system architecture and efficient inference on smartphone NPUs, including projects around **NPUGen** and **ShadowNPU** and low-level accelerator behavior such as Qualcomm Hexagon architectures.
-
-### Federated Learning under Heterogeneity
-I have worked on federated learning methods for reliable learning under spatiotemporal, model, and label heterogeneity, including research directions related to **FedSTAR** and **FedHAN**.
-
-[View all research projects →](/portfolio/)
-
-## Education
-
-**University at Buffalo, SUNY**  
-B.S. in Computer Science
-
-**Hohai University**  
-B.Eng. in Artificial Intelligence
-
-## Contact
-
-Email: [leihanwa@buffalo.edu](mailto:leihanwa@buffalo.edu)  
-GitHub: [github.com/leihanwang](https://github.com/leihanwang)
+Before joining UB, I received my **B.Eng. in Artificial Intelligence from Hohai University**. Across my research, I am particularly interested in connecting advances in foundation models with efficient systems and multimodal interaction, from large-scale model optimization to intelligent computing on mobile and AR platforms.
