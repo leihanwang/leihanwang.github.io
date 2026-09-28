@@ -7,17 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-I am **Leihan Wang**, a Computer Science student at **University at Buffalo, SUNY**. My research interests broadly lie in **large language models, AI systems, code generation, federated learning, and efficient on-device AI**.
+I am **Leihan Wang**, a Computer Science student at **University at Buffalo, SUNY**. My research interests lie at the intersection of **AI systems and multimodal intelligence**, with a focus on **LLM optimization and alignment, world models, augmented reality, efficient on-device AI, and federated learning**.
 
-I am particularly interested in building practical and reliable AI systems, including LLM-based program synthesis, task-adaptive prompting, mobile NPU inference, and learning under decentralized or heterogeneous settings.
+My work spans efficient LLM inference on mobile hardware, multimodal and foundation-model alignment, audio-visual reasoning for AR systems, world-model-based intelligence, robust learning under heterogeneous settings, and LLM-driven program synthesis.
 
 ## Research Interests
 
-- Large Language Models and LLM Systems
-- LLMs for Code Generation and Software Engineering
-- Efficient On-device / Mobile AI and NPU Systems
-- Federated Learning and Trustworthy AI
-- Computer Vision and Multimodal Systems
+- LLM Optimization, Alignment, and AI Systems
+- Multimodal Foundation Models and Representation Alignment
+- Augmented Reality, Audio-Visual Intelligence, and World Models
+- Efficient On-device AI and Mobile NPU Systems
+- Federated Learning and Robust / Trustworthy Learning
 
 ## Selected Research
 
