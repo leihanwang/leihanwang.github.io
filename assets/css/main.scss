@@ -35,7 +35,7 @@
     "layout/page",
     "layout/archive",
     "layout/sidebar",
-    "layout/json_cv",
+    "layout/json_cv";
    /* ===== UB top navigation theme ===== */
 
 .masthead {
@@ -91,4 +91,17 @@
   line-height: 72px;
   font-weight: 600;
 }
-;
+/* ===== remove dark mode toggle ===== */
+.theme-toggle,
+.dark-mode-toggle,
+.color-mode-toggle,
+.scheme-toggle,
+button[aria-label*="theme"],
+button[aria-label*="dark"],
+button[title*="theme"],
+button[title*="dark"],
+.fa-moon,
+.fas.fa-moon,
+.far.fa-moon {
+  display: none !important;
+}
