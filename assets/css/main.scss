@@ -36,72 +36,64 @@
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv";
-   /* ===== UB top navigation theme ===== */
 
-.masthead {
-  background-color: #005bbb !important;   /* UB blue */
-  border-bottom: 0 !important;
+/* ===== University at Buffalo navigation ===== */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .visible-links > li,
+.masthead__menu-item {
+  background: #005BBB !important;
+  background-color: #005BBB !important;
 }
 
-.masthead__inner-wrap,
-.greedy-nav {
-  background-color: #005bbb !important;
+.masthead {
+  border: 0 !important;
+  border-bottom: 1px solid #004A99 !important;
+  box-shadow: none !important;
+}
+
+.masthead::after {
+  background: #004A99 !important;
 }
 
 .greedy-nav a,
-.site-title,
-.site-title:visited,
-.greedy-nav .visible-links a,
-.greedy-nav .hidden-links a {
+.greedy-nav a:visited,
+.masthead__menu-item a,
+.masthead__menu-item a:visited {
   color: #ffffff !important;
 }
 
-.greedy-nav .visible-links a:hover,
-.greedy-nav .hidden-links a:hover,
-.site-title:hover {
-  color: #e6f0ff !important;
+.greedy-nav a:hover,
+.masthead__menu-item a:hover {
+  color: #ffffff !important;
+  opacity: 0.88;
+}
+
+.masthead__menu-item.selected > a {
+  color: #ffffff !important;
+  border-bottom: 3px solid #ffffff !important;
 }
 
 .greedy-nav .visible-links a::before {
   background: #ffffff !important;
 }
 
-.greedy-nav .visible-links li.active > a,
-.greedy-nav .visible-links li a:hover {
+.greedy-nav button,
+.greedy-nav .hidden-links,
+.greedy-nav .hidden-links li {
+  background: #005BBB !important;
+  background-color: #005BBB !important;
   color: #ffffff !important;
 }
 
-/* 当前页下面那条线更明显一点 */
-.greedy-nav .visible-links a::before {
-  height: 3px !important;
-  opacity: 1 !important;
-}
-
-/* 顶栏整体高度和间距稍微像 UB 那种更清爽 */
-.masthead {
-  box-shadow: none !important;
-}
-
-.greedy-nav {
-  min-height: 72px;
-}
-
-.greedy-nav a,
-.site-title {
-  line-height: 72px;
-  font-weight: 600;
-}
-/* ===== remove dark mode toggle ===== */
+#theme-toggle,
+#theme-icon,
 .theme-toggle,
 .dark-mode-toggle,
 .color-mode-toggle,
-.scheme-toggle,
-button[aria-label*="theme"],
-button[aria-label*="dark"],
-button[title*="theme"],
-button[title*="dark"],
-.fa-moon,
-.fas.fa-moon,
-.far.fa-moon {
+.scheme-toggle {
   display: none !important;
 }
