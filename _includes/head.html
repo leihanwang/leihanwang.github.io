@@ -21,9 +21,7 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <style>
-  :root {
-    color-scheme: light;
-  }
+  :root { color-scheme: light; }
 
   html,
   body {
@@ -31,17 +29,26 @@
     color: #222222 !important;
   }
 
+  /* University at Buffalo-style masthead */
   .masthead,
   .masthead__inner-wrap,
   .masthead__menu,
-  #site-nav.greedy-nav {
+  #site-nav.greedy-nav,
+  #site-nav.greedy-nav .visible-links,
+  #site-nav.greedy-nav .visible-links > li,
+  .masthead__menu-item {
     background: #005BBB !important;
-    border-color: #005BBB !important;
-    box-shadow: none !important;
+    background-color: #005BBB !important;
   }
 
   .masthead {
+    border: 0 !important;
     border-bottom: 1px solid #004A99 !important;
+    box-shadow: none !important;
+  }
+
+  .masthead::after {
+    background: #004A99 !important;
   }
 
   #site-nav.greedy-nav a,
@@ -54,21 +61,27 @@
   #site-nav.greedy-nav a:hover,
   .masthead__menu-item a:hover {
     color: #ffffff !important;
-    opacity: 0.9;
+    opacity: 0.88;
   }
 
   .masthead__menu-item.selected > a {
+    color: #ffffff !important;
     border-bottom: 3px solid #ffffff !important;
   }
 
-  .masthead__menu-item.selected > a::before,
-  .greedy-nav .visible-links a::before {
+  #site-nav.greedy-nav .visible-links a::before,
+  .masthead__menu-item.selected > a::before {
     background: #ffffff !important;
   }
 
   #site-nav.greedy-nav button {
     background: #005BBB !important;
     color: #ffffff !important;
+  }
+
+  #site-nav.greedy-nav .hidden-links,
+  #site-nav.greedy-nav .hidden-links li {
+    background: #005BBB !important;
   }
 
   #theme-toggle,
