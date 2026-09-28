@@ -21,12 +21,11 @@ repository               : "leihanwang/leihanwang.github.io"
 author:
   avatar           : "leihan-wang-profile.jpg"
   name             : "Leihan Wang"
-  pronouns         :
   bio              : "Student at University at Buffalo, SUNY"
-  location         :
   employer         : "University at Buffalo, SUNY"
-  uri              :
   email            : "leihanwa@buffalo.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=WZ8MSLYAAAAJ&hl=en"
+  github           : "Dearsisi"
 
   academia         :
   arxiv            :
