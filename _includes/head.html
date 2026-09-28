@@ -41,16 +41,27 @@
     background-color: #005BBB !important;
   }
 
-  /* Thin gold trim below the UB-blue navigation bar */
+  /* Make the UB-blue bar taller */
+  .masthead__inner-wrap {
+    padding-top: 0.9em !important;
+    padding-bottom: 0.9em !important;
+  }
+
+  #site-nav.greedy-nav a {
+    padding-top: 0.65rem !important;
+    padding-bottom: 0.65rem !important;
+  }
+
+  /* 3px gold trim below the UB-blue navigation bar */
   .masthead {
     border: 0 !important;
-    border-bottom: 1px solid #FFB81C !important;
+    border-bottom: 3px solid #FFB81C !important;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06) !important;
   }
 
   .masthead::after {
     background: #FFB81C !important;
-    height: 1px !important;
+    height: 3px !important;
   }
 
   #site-nav.greedy-nav a,
