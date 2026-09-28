@@ -7,10 +7,72 @@
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  try {
+    localStorage.setItem('theme', 'light');
+  } catch (e) {}
+  document.documentElement.removeAttribute('data-theme');
 </script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+
+<style>
+  :root {
+    color-scheme: light;
+  }
+
+  html,
+  body {
+    background: #ffffff !important;
+    color: #222222 !important;
+  }
+
+  .masthead,
+  .masthead__inner-wrap,
+  .masthead__menu,
+  #site-nav.greedy-nav {
+    background: #005BBB !important;
+    border-color: #005BBB !important;
+    box-shadow: none !important;
+  }
+
+  .masthead {
+    border-bottom: 1px solid #004A99 !important;
+  }
+
+  #site-nav.greedy-nav a,
+  #site-nav.greedy-nav a:visited,
+  .masthead__menu-item a,
+  .masthead__menu-item a:visited {
+    color: #ffffff !important;
+  }
+
+  #site-nav.greedy-nav a:hover,
+  .masthead__menu-item a:hover {
+    color: #ffffff !important;
+    opacity: 0.9;
+  }
+
+  .masthead__menu-item.selected > a {
+    border-bottom: 3px solid #ffffff !important;
+  }
+
+  .masthead__menu-item.selected > a::before,
+  .greedy-nav .visible-links a::before {
+    background: #ffffff !important;
+  }
+
+  #site-nav.greedy-nav button {
+    background: #005BBB !important;
+    color: #ffffff !important;
+  }
+
+  #theme-toggle,
+  #theme-icon {
+    display: none !important;
+  }
+</style>
